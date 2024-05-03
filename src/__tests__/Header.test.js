@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen, fireEvent } from "@testing-library/react";
-import Header from "../components/Header";
+import Header from "../components/Heading";
 
 test("displays the toggle button", () => {
   render(<Header />);
